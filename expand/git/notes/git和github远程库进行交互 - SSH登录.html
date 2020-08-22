@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SSH登录 | Tao&#39;s blog</title>
+    <meta name="description" content="我的个人网站">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/blog/images/logo.jpg">
+  <link rel="stylesheet" href="/blog/css/style.css">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.a6200c90.css" as="style"><link rel="preload" href="/blog/assets/js/app.72185d73.js" as="script"><link rel="preload" href="/blog/assets/js/5.91e22af4.js" as="script"><link rel="preload" href="/blog/assets/js/50.29ed3d3b.js" as="script"><link rel="prefetch" href="/blog/assets/js/1.820e8cbb.js"><link rel="prefetch" href="/blog/assets/js/10.61ee7252.js"><link rel="prefetch" href="/blog/assets/js/100.8d9637ac.js"><link rel="prefetch" href="/blog/assets/js/101.4b5eb77b.js"><link rel="prefetch" href="/blog/assets/js/102.f6dd923b.js"><link rel="prefetch" href="/blog/assets/js/103.a534b243.js"><link rel="prefetch" href="/blog/assets/js/104.c2b4f5d1.js"><link rel="prefetch" href="/blog/assets/js/105.745515c7.js"><link rel="prefetch" href="/blog/assets/js/106.f3e98f6a.js"><link rel="prefetch" href="/blog/assets/js/107.c420604a.js"><link rel="prefetch" href="/blog/assets/js/108.29b6d979.js"><link rel="prefetch" href="/blog/assets/js/109.f62507d1.js"><link rel="prefetch" href="/blog/assets/js/11.77f481d5.js"><link rel="prefetch" href="/blog/assets/js/110.67c10b82.js"><link rel="prefetch" href="/blog/assets/js/12.c44ecada.js"><link rel="prefetch" href="/blog/assets/js/13.d477dd15.js"><link rel="prefetch" href="/blog/assets/js/14.a15b2ccd.js"><link rel="prefetch" href="/blog/assets/js/15.11d3eceb.js"><link rel="prefetch" href="/blog/assets/js/16.7864448f.js"><link rel="prefetch" href="/blog/assets/js/17.1d0571f6.js"><link rel="prefetch" href="/blog/assets/js/18.a5965a7e.js"><link rel="prefetch" href="/blog/assets/js/19.88d2ced7.js"><link rel="prefetch" href="/blog/assets/js/2.642fd29e.js"><link rel="prefetch" href="/blog/assets/js/20.134b4be0.js"><link rel="prefetch" href="/blog/assets/js/21.aa23d27d.js"><link rel="prefetch" href="/blog/assets/js/22.63207369.js"><link rel="prefetch" href="/blog/assets/js/23.db6d7d67.js"><link rel="prefetch" href="/blog/assets/js/24.e693afed.js"><link rel="prefetch" href="/blog/assets/js/25.4942e8c7.js"><link rel="prefetch" href="/blog/assets/js/26.489c1402.js"><link rel="prefetch" href="/blog/assets/js/27.fc51bda4.js"><link rel="prefetch" href="/blog/assets/js/28.a4703015.js"><link rel="prefetch" href="/blog/assets/js/29.d215359f.js"><link rel="prefetch" href="/blog/assets/js/3.8bb01784.js"><link rel="prefetch" href="/blog/assets/js/30.b860c8ea.js"><link rel="prefetch" href="/blog/assets/js/31.3153b5ad.js"><link rel="prefetch" href="/blog/assets/js/32.e985d7b0.js"><link rel="prefetch" href="/blog/assets/js/33.0382a117.js"><link rel="prefetch" href="/blog/assets/js/34.6c4e0472.js"><link rel="prefetch" href="/blog/assets/js/35.000e3908.js"><link rel="prefetch" href="/blog/assets/js/36.4afbac44.js"><link rel="prefetch" href="/blog/assets/js/37.86f97da1.js"><link rel="prefetch" href="/blog/assets/js/38.a20c2a47.js"><link rel="prefetch" href="/blog/assets/js/39.b48d6fbd.js"><link rel="prefetch" href="/blog/assets/js/40.ac95ca0e.js"><link rel="prefetch" href="/blog/assets/js/41.ef435614.js"><link rel="prefetch" href="/blog/assets/js/42.27c8ccf4.js"><link rel="prefetch" href="/blog/assets/js/43.12befc34.js"><link rel="prefetch" href="/blog/assets/js/44.57488cd7.js"><link rel="prefetch" href="/blog/assets/js/45.296159d0.js"><link rel="prefetch" href="/blog/assets/js/46.df897180.js"><link rel="prefetch" href="/blog/assets/js/47.9f467a59.js"><link rel="prefetch" href="/blog/assets/js/48.cf46b344.js"><link rel="prefetch" href="/blog/assets/js/49.92850c42.js"><link rel="prefetch" href="/blog/assets/js/51.cc50201d.js"><link rel="prefetch" href="/blog/assets/js/52.4bfa4aff.js"><link rel="prefetch" href="/blog/assets/js/53.9508fbac.js"><link rel="prefetch" href="/blog/assets/js/54.d188b026.js"><link rel="prefetch" href="/blog/assets/js/55.a4b66d62.js"><link rel="prefetch" href="/blog/assets/js/56.107234f9.js"><link rel="prefetch" href="/blog/assets/js/57.f63f9a3b.js"><link rel="prefetch" href="/blog/assets/js/58.2f40fc37.js"><link rel="prefetch" href="/blog/assets/js/59.a2b7e4f6.js"><link rel="prefetch" href="/blog/assets/js/6.0de8b73d.js"><link rel="prefetch" href="/blog/assets/js/60.b9ff82da.js"><link rel="prefetch" href="/blog/assets/js/61.5f57109a.js"><link rel="prefetch" href="/blog/assets/js/62.685cf5d9.js"><link rel="prefetch" href="/blog/assets/js/63.97320149.js"><link rel="prefetch" href="/blog/assets/js/64.4cebec8d.js"><link rel="prefetch" href="/blog/assets/js/65.2fb4d72b.js"><link rel="prefetch" href="/blog/assets/js/66.78dc0dac.js"><link rel="prefetch" href="/blog/assets/js/67.34f36f8f.js"><link rel="prefetch" href="/blog/assets/js/68.37f6c7be.js"><link rel="prefetch" href="/blog/assets/js/69.3b616a26.js"><link rel="prefetch" href="/blog/assets/js/7.c5fb7b88.js"><link rel="prefetch" href="/blog/assets/js/70.7c0e28f7.js"><link rel="prefetch" href="/blog/assets/js/71.215e601c.js"><link rel="prefetch" href="/blog/assets/js/72.4716a278.js"><link rel="prefetch" href="/blog/assets/js/73.38493d66.js"><link rel="prefetch" href="/blog/assets/js/74.1210a519.js"><link rel="prefetch" href="/blog/assets/js/75.48045236.js"><link rel="prefetch" href="/blog/assets/js/76.8c9ceb4a.js"><link rel="prefetch" href="/blog/assets/js/77.8813cd35.js"><link rel="prefetch" href="/blog/assets/js/78.2f6c5458.js"><link rel="prefetch" href="/blog/assets/js/79.49fcba3e.js"><link rel="prefetch" href="/blog/assets/js/8.3f097190.js"><link rel="prefetch" href="/blog/assets/js/80.8de0230a.js"><link rel="prefetch" href="/blog/assets/js/81.b6865dd2.js"><link rel="prefetch" href="/blog/assets/js/82.a2096070.js"><link rel="prefetch" href="/blog/assets/js/83.6384b7a3.js"><link rel="prefetch" href="/blog/assets/js/84.05f6f876.js"><link rel="prefetch" href="/blog/assets/js/85.e6b7abba.js"><link rel="prefetch" href="/blog/assets/js/86.a368c5e8.js"><link rel="prefetch" href="/blog/assets/js/87.24c3347b.js"><link rel="prefetch" href="/blog/assets/js/88.091b8412.js"><link rel="prefetch" href="/blog/assets/js/89.e4c33395.js"><link rel="prefetch" href="/blog/assets/js/9.b7354baa.js"><link rel="prefetch" href="/blog/assets/js/90.8a49aa01.js"><link rel="prefetch" href="/blog/assets/js/91.8614a057.js"><link rel="prefetch" href="/blog/assets/js/92.786c4832.js"><link rel="prefetch" href="/blog/assets/js/93.2ecf7c26.js"><link rel="prefetch" href="/blog/assets/js/94.f115576b.js"><link rel="prefetch" href="/blog/assets/js/95.63fb5e60.js"><link rel="prefetch" href="/blog/assets/js/96.9a8db9d4.js"><link rel="prefetch" href="/blog/assets/js/97.b460f568.js"><link rel="prefetch" href="/blog/assets/js/98.fed989e9.js"><link rel="prefetch" href="/blog/assets/js/99.c9584e18.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.a6200c90.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">Tao's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-base/ES6/" class="nav-link">
+  ECMAScript 6
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/javascript核心技术开发/" class="nav-link">
+  JavaScript核心技术开发
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/html/" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/webpack/" class="nav-link">
+  webpack
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端基础" class="dropdown-title"><span class="title">后端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/back-base/java/" class="nav-link">
+  java
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="拓展" class="dropdown-title"><span class="title">拓展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/expand/git/" class="nav-link router-link-active">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mongodb/" class="nav-link">
+  mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mini-program/" class="nav-link">
+  Mini Program
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link">
+  算法题库
+</a></div><div class="nav-item"><a href="/blog/classic/" class="nav-link">
+  经典文章
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端UI" class="dropdown-title"><span class="title">前端UI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-ui/element/" class="nav-link">
+  element
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-ui/iview/" class="nav-link">
+  iview
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/my-components/" class="nav-link">
+  高级组件
+</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="https://baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微博
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-base/ES6/" class="nav-link">
+  ECMAScript 6
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/javascript核心技术开发/" class="nav-link">
+  JavaScript核心技术开发
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/html/" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/webpack/" class="nav-link">
+  webpack
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端基础" class="dropdown-title"><span class="title">后端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/back-base/java/" class="nav-link">
+  java
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="拓展" class="dropdown-title"><span class="title">拓展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/expand/git/" class="nav-link router-link-active">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mongodb/" class="nav-link">
+  mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mini-program/" class="nav-link">
+  Mini Program
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link">
+  算法题库
+</a></div><div class="nav-item"><a href="/blog/classic/" class="nav-link">
+  经典文章
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端UI" class="dropdown-title"><span class="title">前端UI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-ui/element/" class="nav-link">
+  element
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-ui/iview/" class="nav-link">
+  iview
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/my-components/" class="nav-link">
+  高级组件
+</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="https://baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微博
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/blog/expand/git/" class="sidebar-heading clickable router-link-active open"><span>git</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/expand/git/notes/git的工作模式.html" class="sidebar-link">git的工作模式</a></li><li><a href="/blog/expand/git/notes/git命令行操作 - 本地库初始化.html" class="sidebar-link">本地库初始化</a></li><li><a href="/blog/expand/git/notes/git命令行操作 - 本地库设置签名.html" class="sidebar-link">本地库设置签名</a></li><li><a href="/blog/expand/git/notes/git命令行操作 - 查看状态.html" class="sidebar-link">查看项目所在状态</a></li><li><a href="/blog/expand/git/notes/git命令行操作 - 查看本地库所有版本.html" class="sidebar-link">查看本地库所有版本</a></li><li><a href="/blog/expand/git/notes/git命令行操作 - 本地库版本前进与后退.html" class="sidebar-link">本地库版本前进与后退</a></li><li><a href="/blog/expand/git/notes/git命令行操作 - 版本移动reset命令三个参数比较.html" class="sidebar-link">reset命令的三个参数对比</a></li><li><a href="/blog/expand/git/notes/git命令行操作 - 本地库比较文件的差异.html" class="sidebar-link">比较文件的差异</a></li><li><a href="/blog/expand/git/notes/git分支 - 分支的创建、查看、切换和合并.html" class="sidebar-link">分支的创建、查看、切换和合并</a></li><li><a href="/blog/expand/git/notes/git和github远程库进行交互 - 注册GitHub账户创建远程库.html" class="sidebar-link">注册github账户创建远程库</a></li><li><a href="/blog/expand/git/notes/git和github远程库进行交互 - 本地库连接远程库（可推拉操作）.html" class="sidebar-link">本地库连接远程库（可推拉操作）</a></li><li><a href="/blog/expand/git/notes/git和github远程库进行交互 - 克隆远程库和给克隆成员推送权限.html" class="sidebar-link">克隆远程库（给克隆成员推送权限）</a></li><li><a href="/blog/expand/git/notes/git和github远程库进行交互 - 跨团队协作（fork操作）.html" class="sidebar-link">跨团队协作（fork操作）</a></li><li><a href="/blog/expand/git/notes/git和github远程库进行交互 - SSH登录.html" class="active sidebar-link">SSH登录</a></li><li><a href="/blog/expand/git/notes/git日常知识点积累.html" class="sidebar-link">使用git tag 打点</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="ssh登录"><a href="#ssh登录" class="header-anchor">#</a> SSH登录</h1> <ol><li><p>生成.ssh文件</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>DELL@DESKTOP-53JS0A9 MINGW64 ~  
+$ <span class="token function">rm</span> -rvf .ssh  <span class="token comment"># 可以存在之前的.ssh文件，所以使用这个命令删除之前的</span>
+
+DELL@DESKTOP-53JS0A9 MINGW64 ~ 
+$ ssh-keygen -t rsa -C taotao-github   <span class="token comment">#注意命令中-C是大写的C，后面跟的是github账户   名，输入户直接3个回车</span>
+Generating public/private rsa key pair.                                                                  
+Enter <span class="token function">file</span> <span class="token keyword">in</span> <span class="token function">which</span> to save the key <span class="token punctuation">(</span>/c/Users/DELL/.ssh/id_rsa<span class="token punctuation">)</span>:                                         
+Created directory <span class="token string">'/c/Users/DELL/.ssh'</span><span class="token builtin class-name">.</span>                                                                  
+Enter passphrase <span class="token punctuation">(</span>empty <span class="token keyword">for</span> no passphrase<span class="token punctuation">)</span>:                                                              
+Enter same passphrase again:                                                                             
+Your identification has been saved <span class="token keyword">in</span> /c/Users/DELL/.ssh/id_rsa.                                         
+Your public key has been saved <span class="token keyword">in</span> /c/Users/DELL/.ssh/id_rsa.pub.                                         
+The key fingerprint is:                                                                                  
+SHA256:m9LE0WCI1I9Dy4Xz0ObodOWik6SGxf8QABzhUUmv4zk taotao-github                                         
+The key's randomart image is:                                                                            
++---<span class="token punctuation">[</span>RSA <span class="token number">2048</span><span class="token punctuation">]</span>----+ 
+<span class="token operator">|</span>   .<span class="token operator">=</span>B++ +o      <span class="token operator">|</span>  
+<span class="token operator">|</span>   <span class="token punctuation">..</span>.+.B.+o.    <span class="token operator">|</span> 
+<span class="token operator">|</span>     <span class="token punctuation">..</span> +.%.o.   <span class="token operator">|</span>  
+<span class="token operator">|</span>         o.X.*<span class="token punctuation">..</span> <span class="token operator">|</span>  
+<span class="token operator">|</span>       oo* *S.   <span class="token operator">|</span>    
+<span class="token operator">|</span>      <span class="token punctuation">..</span>ooBo o   <span class="token operator">|</span> 
+<span class="token operator">|</span>       .E .++    <span class="token operator">|</span>   
+<span class="token operator">|</span>           <span class="token builtin class-name">.</span> <span class="token punctuation">..</span>  <span class="token operator">|</span>  
+<span class="token operator">|</span>                 <span class="token operator">|</span>   
++----<span class="token punctuation">[</span>SHA256<span class="token punctuation">]</span>-----+ 
+  
+DELL@DESKTOP-53JS0A9 MINGW64 ~ 
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><blockquote><p>执行命令后会在我们的家目录（~）下创建一个.ssh目录，效果如下</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>DELL@DESKTOP-53JS0A9 MINGW64 ~/.ssh                                                                   
+$ ll                                                                                                     
+total <span class="token number">5</span>                                                                                                  
+-rw-r--r-- <span class="token number">1</span> DELL <span class="token number">197121</span> <span class="token number">1823</span> <span class="token number">8</span>月   <span class="token number">5</span> <span class="token number">17</span>:31 id_rsa                                                       
+-rw-r--r-- <span class="token number">1</span> DELL <span class="token number">197121</span>  <span class="token number">395</span> <span class="token number">8</span>月   <span class="token number">5</span> <span class="token number">17</span>:31 id_rsa.pub                                                   
+                                                                                                         
+DELL@DESKTOP-53JS0A9 MINGW64 ~/.ssh                                                                         
+$ ll ~/.ssh                                                                                              
+total <span class="token number">5</span>                                                                                                  
+-rw-r--r-- <span class="token number">1</span> DELL <span class="token number">197121</span> <span class="token number">1823</span> <span class="token number">8</span>月   <span class="token number">5</span> <span class="token number">17</span>:31 id_rsa                                                       
+-rw-r--r-- <span class="token number">1</span> DELL <span class="token number">197121</span>  <span class="token number">395</span> <span class="token number">8</span>月   <span class="token number">5</span> <span class="token number">17</span>:31 id_rsa.pub                                                   
+                                                                                                         
+DELL@DESKTOP-53JS0A9 MINGW64 ~/.ssh                                                                        
+$ <span class="token function">cat</span> id_rsa.pub                                                                                         
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDU+hqDDaqjnVJuddWCuFDCH5ULB23DZwfhGl/   bYaSDqjs295M7iVi0Y1cDAufT+3
+8ybfZTCaUZG5cgzWtMJAJ4v9jzVvGWGm5mLHZI34ZOeBcnQmc1TRw6VgBjrFkZWSzYlqUwwjSJpZrihh7md   M8A4tB1UpocjXAy3Qq4
+WrmlVD4BvA/V/hAJdzbn1Dd2Hf4QYLjX9BWnqt2rK/rjJA5U5ScodoHG51j1KnKXqNlf4pHco/   UEhfurhl5s0S6RxTxNdHDsUN2GVE
+m2rQmwhWCnX1V9/91gGEsoQ9xczwRYe99NZZkT8m9iDfPFlNYAze5EVbmiPTSy5sPaSowYKQ/H    taotao-github              
+    <span class="token comment"># 复制上面划线的字符</span>
+DELL@DESKTOP-53JS0A9 MINGW64 ~/.ssh 
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div></li> <li><p>远程库配置ssh keys
+<img src="/blog/images/git/远程库配置ssh.jpg" alt="远程库配置ssh"></p></li> <li><p>本地使用远程库的ssh项目地址并设置别名</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>DELL@DESKTOP-53JS0A9 MINGW64 /e/git_test/other_member/zt_git_test <span class="token punctuation">(</span>master<span class="token punctuation">)</span>                                 
+$ <span class="token function">git</span> remote <span class="token function">add</span> origin_ssh git@github.com:taotao-github/zt_git_test.git                                      
+                                                                                                              
+DELL@DESKTOP-53JS0A9 MINGW64 /e/git_test/other_member/zt_git_test <span class="token punctuation">(</span>master<span class="token punctuation">)</span>                                   
+$ <span class="token function">git</span> remote -v                                                                                               
+origin  https://github.com/taotao-github/zt_git_test.git <span class="token punctuation">(</span>fetch<span class="token punctuation">)</span>                                              
+origin  https://github.com/taotao-github/zt_git_test.git <span class="token punctuation">(</span>push<span class="token punctuation">)</span>                                               
+originin_ssh    git@github.com:taotao-github/zt_git_test.git <span class="token punctuation">(</span>fetch<span class="token punctuation">)</span>                                          
+originin_ssh    git@github.com:taotao-github/zt_git_test.git <span class="token punctuation">(</span>push<span class="token punctuation">)</span>                                           
+                                                                                                              
+DELL@DESKTOP-53JS0A9 MINGW64 /e/git_test/other_member/zt_git_test <span class="token punctuation">(</span>master<span class="token punctuation">)</span> 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><blockquote><p>修改文件提交到本地库然后就可以直接推送到远程库上了。</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>DELL@DESKTOP-53JS0A9 MINGW64 /e/git_test/other_member/zt_git_test <span class="token punctuation">(</span>master<span class="token punctuation">)</span>                                
+$ <span class="token function">git</span> push originin_ssh master                                                                                
+Warning: Permanently added the RSA <span class="token function">host</span> key <span class="token keyword">for</span> IP address <span class="token string">'52.74.223.119'</span> to the list    of known hosts.     
+Enumerating objects: <span class="token number">10</span>, done.                                                                                
+Counting objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">10</span>/10<span class="token punctuation">)</span>, done.                                                                         
+Delta compression using up to <span class="token number">8</span> threads                                                                       
+Compressing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">4</span>/4<span class="token punctuation">)</span>, done.                                                                        
+Writing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">6</span>/6<span class="token punctuation">)</span>, <span class="token number">629</span> bytes <span class="token operator">|</span> <span class="token number">629.00</span> KiB/s, done.                                                  
+Total <span class="token number">6</span> <span class="token punctuation">(</span>delta <span class="token number">2</span><span class="token punctuation">)</span>, reused <span class="token number">0</span> <span class="token punctuation">(</span>delta <span class="token number">0</span><span class="token punctuation">)</span>                                                                         
+remote: Resolving deltas: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">2</span>/2<span class="token punctuation">)</span>, completed with <span class="token number">1</span> <span class="token builtin class-name">local</span> object.                                          
+To github.com:taotao-github/zt_git_test.git                                                                   
+   04b9de6<span class="token punctuation">..</span>78f1325  master -<span class="token operator">&gt;</span> master                      
+                                                
+DELL@DESKTOP-53JS0A9 MINGW64 /e/git_test/other_member/zt_git_test <span class="token punctuation">(</span>master<span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><blockquote><p><font color="#ff0000">这样我们推送成功了，可以看出我们不会像https那样要输入账号和密码，直接就能推送成功</font></p></blockquote></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/expand/git/notes/git和github远程库进行交互 - 跨团队协作（fork操作）.html" class="prev">
+        跨团队协作（fork操作）
+      </a></span> <span class="next"><a href="/blog/expand/git/notes/git日常知识点积累.html">
+        使用git tag 打点
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.72185d73.js" defer></script><script src="/blog/assets/js/5.91e22af4.js" defer></script><script src="/blog/assets/js/50.29ed3d3b.js" defer></script>
+  </body>
+</html>

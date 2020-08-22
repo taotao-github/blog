@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>7. this | Tao&#39;s blog</title>
+    <meta name="description" content="我的个人网站">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/blog/images/logo.jpg">
+  <link rel="stylesheet" href="/blog/css/style.css">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.a6200c90.css" as="style"><link rel="preload" href="/blog/assets/js/app.72185d73.js" as="script"><link rel="preload" href="/blog/assets/js/5.91e22af4.js" as="script"><link rel="preload" href="/blog/assets/js/88.091b8412.js" as="script"><link rel="prefetch" href="/blog/assets/js/1.820e8cbb.js"><link rel="prefetch" href="/blog/assets/js/10.61ee7252.js"><link rel="prefetch" href="/blog/assets/js/100.8d9637ac.js"><link rel="prefetch" href="/blog/assets/js/101.4b5eb77b.js"><link rel="prefetch" href="/blog/assets/js/102.f6dd923b.js"><link rel="prefetch" href="/blog/assets/js/103.a534b243.js"><link rel="prefetch" href="/blog/assets/js/104.c2b4f5d1.js"><link rel="prefetch" href="/blog/assets/js/105.745515c7.js"><link rel="prefetch" href="/blog/assets/js/106.f3e98f6a.js"><link rel="prefetch" href="/blog/assets/js/107.c420604a.js"><link rel="prefetch" href="/blog/assets/js/108.29b6d979.js"><link rel="prefetch" href="/blog/assets/js/109.f62507d1.js"><link rel="prefetch" href="/blog/assets/js/11.77f481d5.js"><link rel="prefetch" href="/blog/assets/js/110.67c10b82.js"><link rel="prefetch" href="/blog/assets/js/12.c44ecada.js"><link rel="prefetch" href="/blog/assets/js/13.d477dd15.js"><link rel="prefetch" href="/blog/assets/js/14.a15b2ccd.js"><link rel="prefetch" href="/blog/assets/js/15.11d3eceb.js"><link rel="prefetch" href="/blog/assets/js/16.7864448f.js"><link rel="prefetch" href="/blog/assets/js/17.1d0571f6.js"><link rel="prefetch" href="/blog/assets/js/18.a5965a7e.js"><link rel="prefetch" href="/blog/assets/js/19.88d2ced7.js"><link rel="prefetch" href="/blog/assets/js/2.642fd29e.js"><link rel="prefetch" href="/blog/assets/js/20.134b4be0.js"><link rel="prefetch" href="/blog/assets/js/21.aa23d27d.js"><link rel="prefetch" href="/blog/assets/js/22.63207369.js"><link rel="prefetch" href="/blog/assets/js/23.db6d7d67.js"><link rel="prefetch" href="/blog/assets/js/24.e693afed.js"><link rel="prefetch" href="/blog/assets/js/25.4942e8c7.js"><link rel="prefetch" href="/blog/assets/js/26.489c1402.js"><link rel="prefetch" href="/blog/assets/js/27.fc51bda4.js"><link rel="prefetch" href="/blog/assets/js/28.a4703015.js"><link rel="prefetch" href="/blog/assets/js/29.d215359f.js"><link rel="prefetch" href="/blog/assets/js/3.8bb01784.js"><link rel="prefetch" href="/blog/assets/js/30.b860c8ea.js"><link rel="prefetch" href="/blog/assets/js/31.3153b5ad.js"><link rel="prefetch" href="/blog/assets/js/32.e985d7b0.js"><link rel="prefetch" href="/blog/assets/js/33.0382a117.js"><link rel="prefetch" href="/blog/assets/js/34.6c4e0472.js"><link rel="prefetch" href="/blog/assets/js/35.000e3908.js"><link rel="prefetch" href="/blog/assets/js/36.4afbac44.js"><link rel="prefetch" href="/blog/assets/js/37.86f97da1.js"><link rel="prefetch" href="/blog/assets/js/38.a20c2a47.js"><link rel="prefetch" href="/blog/assets/js/39.b48d6fbd.js"><link rel="prefetch" href="/blog/assets/js/40.ac95ca0e.js"><link rel="prefetch" href="/blog/assets/js/41.ef435614.js"><link rel="prefetch" href="/blog/assets/js/42.27c8ccf4.js"><link rel="prefetch" href="/blog/assets/js/43.12befc34.js"><link rel="prefetch" href="/blog/assets/js/44.57488cd7.js"><link rel="prefetch" href="/blog/assets/js/45.296159d0.js"><link rel="prefetch" href="/blog/assets/js/46.df897180.js"><link rel="prefetch" href="/blog/assets/js/47.9f467a59.js"><link rel="prefetch" href="/blog/assets/js/48.cf46b344.js"><link rel="prefetch" href="/blog/assets/js/49.92850c42.js"><link rel="prefetch" href="/blog/assets/js/50.29ed3d3b.js"><link rel="prefetch" href="/blog/assets/js/51.cc50201d.js"><link rel="prefetch" href="/blog/assets/js/52.4bfa4aff.js"><link rel="prefetch" href="/blog/assets/js/53.9508fbac.js"><link rel="prefetch" href="/blog/assets/js/54.d188b026.js"><link rel="prefetch" href="/blog/assets/js/55.a4b66d62.js"><link rel="prefetch" href="/blog/assets/js/56.107234f9.js"><link rel="prefetch" href="/blog/assets/js/57.f63f9a3b.js"><link rel="prefetch" href="/blog/assets/js/58.2f40fc37.js"><link rel="prefetch" href="/blog/assets/js/59.a2b7e4f6.js"><link rel="prefetch" href="/blog/assets/js/6.0de8b73d.js"><link rel="prefetch" href="/blog/assets/js/60.b9ff82da.js"><link rel="prefetch" href="/blog/assets/js/61.5f57109a.js"><link rel="prefetch" href="/blog/assets/js/62.685cf5d9.js"><link rel="prefetch" href="/blog/assets/js/63.97320149.js"><link rel="prefetch" href="/blog/assets/js/64.4cebec8d.js"><link rel="prefetch" href="/blog/assets/js/65.2fb4d72b.js"><link rel="prefetch" href="/blog/assets/js/66.78dc0dac.js"><link rel="prefetch" href="/blog/assets/js/67.34f36f8f.js"><link rel="prefetch" href="/blog/assets/js/68.37f6c7be.js"><link rel="prefetch" href="/blog/assets/js/69.3b616a26.js"><link rel="prefetch" href="/blog/assets/js/7.c5fb7b88.js"><link rel="prefetch" href="/blog/assets/js/70.7c0e28f7.js"><link rel="prefetch" href="/blog/assets/js/71.215e601c.js"><link rel="prefetch" href="/blog/assets/js/72.4716a278.js"><link rel="prefetch" href="/blog/assets/js/73.38493d66.js"><link rel="prefetch" href="/blog/assets/js/74.1210a519.js"><link rel="prefetch" href="/blog/assets/js/75.48045236.js"><link rel="prefetch" href="/blog/assets/js/76.8c9ceb4a.js"><link rel="prefetch" href="/blog/assets/js/77.8813cd35.js"><link rel="prefetch" href="/blog/assets/js/78.2f6c5458.js"><link rel="prefetch" href="/blog/assets/js/79.49fcba3e.js"><link rel="prefetch" href="/blog/assets/js/8.3f097190.js"><link rel="prefetch" href="/blog/assets/js/80.8de0230a.js"><link rel="prefetch" href="/blog/assets/js/81.b6865dd2.js"><link rel="prefetch" href="/blog/assets/js/82.a2096070.js"><link rel="prefetch" href="/blog/assets/js/83.6384b7a3.js"><link rel="prefetch" href="/blog/assets/js/84.05f6f876.js"><link rel="prefetch" href="/blog/assets/js/85.e6b7abba.js"><link rel="prefetch" href="/blog/assets/js/86.a368c5e8.js"><link rel="prefetch" href="/blog/assets/js/87.24c3347b.js"><link rel="prefetch" href="/blog/assets/js/89.e4c33395.js"><link rel="prefetch" href="/blog/assets/js/9.b7354baa.js"><link rel="prefetch" href="/blog/assets/js/90.8a49aa01.js"><link rel="prefetch" href="/blog/assets/js/91.8614a057.js"><link rel="prefetch" href="/blog/assets/js/92.786c4832.js"><link rel="prefetch" href="/blog/assets/js/93.2ecf7c26.js"><link rel="prefetch" href="/blog/assets/js/94.f115576b.js"><link rel="prefetch" href="/blog/assets/js/95.63fb5e60.js"><link rel="prefetch" href="/blog/assets/js/96.9a8db9d4.js"><link rel="prefetch" href="/blog/assets/js/97.b460f568.js"><link rel="prefetch" href="/blog/assets/js/98.fed989e9.js"><link rel="prefetch" href="/blog/assets/js/99.c9584e18.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.a6200c90.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">Tao's blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-base/ES6/" class="nav-link">
+  ECMAScript 6
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/javascript核心技术开发/" class="nav-link">
+  JavaScript核心技术开发
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/html/" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/webpack/" class="nav-link">
+  webpack
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端基础" class="dropdown-title"><span class="title">后端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/back-base/java/" class="nav-link">
+  java
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="拓展" class="dropdown-title"><span class="title">拓展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/expand/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mongodb/" class="nav-link">
+  mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mini-program/" class="nav-link">
+  Mini Program
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link">
+  算法题库
+</a></div><div class="nav-item"><a href="/blog/classic/" class="nav-link">
+  经典文章
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端UI" class="dropdown-title"><span class="title">前端UI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-ui/element/" class="nav-link">
+  element
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-ui/iview/" class="nav-link">
+  iview
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/my-components/" class="nav-link">
+  高级组件
+</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="https://baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微博
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端基础" class="dropdown-title"><span class="title">前端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-base/ES6/" class="nav-link">
+  ECMAScript 6
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/javascript核心技术开发/" class="nav-link">
+  JavaScript核心技术开发
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/html/" class="nav-link">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-base/webpack/" class="nav-link">
+  webpack
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端基础" class="dropdown-title"><span class="title">后端基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/back-base/java/" class="nav-link">
+  java
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="拓展" class="dropdown-title"><span class="title">拓展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/expand/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mongodb/" class="nav-link">
+  mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mysql/" class="nav-link">
+  mysql
+</a></li><li class="dropdown-item"><!----> <a href="/blog/expand/mini-program/" class="nav-link">
+  Mini Program
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/algorithm/" class="nav-link">
+  算法题库
+</a></div><div class="nav-item"><a href="/blog/classic/" class="nav-link">
+  经典文章
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端UI" class="dropdown-title"><span class="title">前端UI</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/front-ui/element/" class="nav-link">
+  element
+</a></li><li class="dropdown-item"><!----> <a href="/blog/front-ui/iview/" class="nav-link">
+  iview
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/my-components/" class="nav-link">
+  高级组件
+</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="https://baidu.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  微博
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>JavaScript核心技术开发指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/front-base/javascript核心技术开发/notes/三种基础数据结构.html" class="sidebar-link">1. 三种基础数据结构</a></li><li><a href="/blog/front-base/javascript核心技术开发/notes/内存空间.html" class="sidebar-link">2. 内存空间</a></li><li><a href="/blog/front-base/javascript核心技术开发/notes/执行上下文.html" class="sidebar-link">3. 执行上下文</a></li><li><a href="/blog/front-base/javascript核心技术开发/notes/变量对象.html" class="sidebar-link">4. 变量对象</a></li><li><a href="/blog/front-base/javascript核心技术开发/notes/作用域与作用域链.html" class="sidebar-link">5. 作用域与作用域链</a></li><li><a href="/blog/front-base/javascript核心技术开发/notes/闭包.html" class="sidebar-link">6. 闭包</a></li><li><a href="/blog/front-base/javascript核心技术开发/notes/this.html" class="active sidebar-link">7. this</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/front-base/javascript核心技术开发/notes/this.html#_7-1-全局对象中的this" class="sidebar-link">7.1 全局对象中的this</a></li><li class="sidebar-sub-header"><a href="/blog/front-base/javascript核心技术开发/notes/this.html#_7-2-函数中this" class="sidebar-link">7.2 函数中this</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_7-this"><a href="#_7-this" class="header-anchor">#</a> 7. this</h1> <blockquote><p>前面我们知道，但函数被调用执行时，会创建改函数的执行上下文，在上下文的创建阶段会生成变量对象，确认作用域链以及this的指向。所以我们要牢记，当前函数的this是在函数被调用执行时才确定下来的。</p></blockquote> <div class="custom-block tip"><p class="custom-block-title">注意</p> <p>如果当前执行上下文处于函数调用栈栈顶，那么这个时候的变量对象就会变为活动对象，同时确定this的指向。正是这个原因才导致一个函数内部的this到底指向谁是非常灵活且不确定的。这也是this难以理解的真正原因所在。</p></div> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  a<span class="token operator">:</span> <span class="token number">20</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>a<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 10</span>
+<span class="token function">fn</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token comment">// 20</span>
+
+<span class="token comment">// 通过a输出结果的不同，我们可以知道this分别指向了window和obj</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_7-1-全局对象中的this"><a href="#_7-1-全局对象中的this" class="header-anchor">#</a> 7.1 全局对象中的this</h2> <blockquote><p>在前面的学习我们知道，全局对象中的this是个特殊的存在，它指向了自身。因此相对简单没有更多复杂特殊的情况</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 通过this绑定到全局对象</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>a <span class="token operator">=</span> <span class="token number">20</span>
+
+<span class="token comment">// 通过声明绑定变量对象，在全局对象中，变量对象就是它本身</span>
+<span class="token keyword">var</span> a2 <span class="token operator">=</span> <span class="token number">10</span>
+
+<span class="token comment">// 仅仅通过赋值，标识符会隐式绑定到全局对象</span>
+a3 <span class="token operator">=</span>  <span class="token number">30</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="_7-2-函数中this"><a href="#_7-2-函数中this" class="header-anchor">#</a> 7.2 函数中this</h2> <blockquote><p>通过前面的例子可知，同一个函数中的this由于调用方式的不同导致this的指向不同，因此this最终指向谁跟调用该函数的方式息息相关。</p></blockquote> <p>在一个函数的执行上下文中，this由该函数的调用者提供，有调用函数的方式来决定this的指向。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// fn为调用者。</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><strong>如果调用者被一个对象所拥有，那么调用该函数时，内部的this指向该对象。如果是调用者函数独立调用，那么该函数内部的this执行undefined，但是在非严格模式中，当this指向undefined时，会默认自动指向window。</strong></p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 为了能够准确判断我们在函数内部使用严格模式，因为非严格模式，this会自动指向window</span>
+<span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token string">'use strict'</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// undefined fn为调用者，独立调用，this为undefined</span>
+window<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// window fnw为调用者，但是fn为window所拥有，this指向window</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><blockquote><p>函数是独立调用，还是被某个对象拥有，值非常容易辨别的，综合上面的例子结合下面的例子进行分析。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  a<span class="token operator">:</span> <span class="token number">40</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'fn this: '</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">)</span>
+  <span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>a<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  <span class="token function">foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">fn</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token comment">// fn this: obj,  20</span>
+<span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// fn this: window,  20</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>这个例子中，fn的调用方式不同，this的指向会有所不同。但是无论fn如何调用，在fn执行时，foo始终是独立调用，this始终指向undefined，但是由于是非严格模式，foo中的this自动指向window，所以都会输出20。</p> <blockquote><p>再来一个例子</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token string">'use strict'</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">function</span> <span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">1</span>
+  <span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+    a<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    c<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>a <span class="token operator">+</span> <span class="token number">20</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> obj<span class="token punctuation">.</span>c
+<span class="token punctuation">}</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// 40</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// 报错 TypeError: Cannot read property 'a' of undefined</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>这个例子中，对象字面量的写法不会产生自己的作用域，因此在demo02中的obj.c上的this并不会指向obj，而是与foo函数内部的this保持一致。</p> <blockquote><p>再来一个例子</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">20</span>
+<span class="token keyword">var</span> foo <span class="token operator">=</span> <span class="token punctuation">{</span>
+  a<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">getA</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>a
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">var</span> test <span class="token operator">=</span> foo<span class="token punctuation">.</span>getA
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>foo<span class="token punctuation">.</span><span class="token function">getA</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// 10</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// 20</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>这是一个非常容易理解错误的例子，但是我们只有牢记调用者独立调用与调用被某个对象所拥有得区别，就不会出错了。
+在foo.getA()执行时，getA为调用者，getA为foo所拥有，因此getA函数内部的this指向了foo，这点就是与上一例对象字面量的区别。test()执行时，test为调用者，虽然test与foo.getA的引用指向同一函数，但是调用的方式不同，test引用的函数getA内部this指向了undefined，并自动指向window。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/front-base/javascript核心技术开发/notes/闭包.html" class="prev">
+        6. 闭包
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.72185d73.js" defer></script><script src="/blog/assets/js/5.91e22af4.js" defer></script><script src="/blog/assets/js/88.091b8412.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+/*--修改默认主题内容区域的宽度--*/
+.theme-default-content:not(.custom) {
+    max-width: unset !important;
+}
+.page-nav {
+    max-width: unset !important;
+}
+
+/* 修改iframe的样式 */
+iframe{
+    width: 100%;
+    height: 250px;
+    border: none;
+}
